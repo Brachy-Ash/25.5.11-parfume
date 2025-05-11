@@ -1,0 +1,94 @@
+
+body{
+  background-color: #fff3ec;
+  direction: rtl;
+}
+
+h1 {/* כותרת חנות*/
+  text-align: center;  /*???????????????????*/
+  color: #ffc0ad;
+  font-size: 50px;
+}
+
+hr{/* קו אופקי */
+  color: #55423d;
+  height: 5px;
+  background-color: #55423d;
+}
+
+h2 {/* הוספת מוצר לחנות ולעגלה*/
+  text-align: center;  /*???????????????????*/
+  color: #ffc0ad;
+font-size: 50px;
+}
+
+.products-list {   /* הדיב בו כל הדיבים-כרטיסיות המוצרים*/
+  display: flex; 
+  gap: 50px;   /* רווח בין הדיבים-כרטיסיות המוצרים */
+  align-items: center;
+  text-align: center;  /* ממרכז את הכתב בתוך הכרטיסיות */
+  flex-wrap: wrap;    /* מוריד שורה את הכרטיסיות כשמגיע לגבול ע"פ מאפיינים אחרים */
+  
+}
+div.products{ /*הדיבים-הכרטיסיות עצמן*/
+width: 202px;
+border: solid 4px #55423d93;
+flex-basis: 20%; /*מינימום הגודל בו אני רוצה שהדיב-כרטיס יהיה*/
+border-radius: 20px;
+/* padding: 20px; */
+
+}
+
+button {  /* כל כפתור שהוא*/
+  border-color:#ffc0ad;
+  background-color: #ffc0ad;
+  text-align: center; /*????????????????*/
+  width: 40%;
+  height: 56px;
+  margin: 10px;  /* מסגרת אוויר מחוץ לאובייקט*/
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.single_btn{
+  width: 10%;
+}
+
+.use{
+  width: 10%;
+}
+
+.time{
+  width: 10%;
+  color: #4c3c38;
+
+}
+
+img{
+height: 150px;
+margin: 10px;  /* מסגרת אוויר מחוץ לאובייקט*/
+
+}
+
+input {  /* שדות אינפוט*/
+  /* align-self: center; */
+  text-align: center; /*מירכוז הכיתוב בתוך שדה האינפוט */
+  border: solid 4px #55423d97;
+  width: 250px;
+  height: 50px;
+  margin: 5px;
+  border-radius: 20px;
+
+} 
+bbb{
+  color: #4c3c38;
+  font-size: 3cap;
+
+}
+
+
+
+/* 
+שיעור שלישי: להוסיף לדף המצינג אפשרות של הצגת רשימת תורמים/שמות לתפילה
+שיעור רביעי: פיתוח אתר המציג מוצרים למכירה, עם אפשרות להוספת מוצרים לחנות (צד מנהל), ואפשרות להוספת מוצרים לסל (צד לקוח) ובלחיצה על בצע הזמנה הציגי אלרט של: הזמנת התקבלה
+שיעור חמישי: פתיחת חשבון בגיט, התקנה ושימוש בגיט */
